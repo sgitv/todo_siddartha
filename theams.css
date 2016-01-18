@@ -1,0 +1,73 @@
+ body {
+ 	background-color: white;
+
+ }
+ body,
+ input {
+ 	font-size: 30px;
+ 	color: #363639;
+
+ }
+ a {
+ 	text-decoration: none;
+ 	margin-left: 30px;
+
+ }
+
+ /* List */
+ .list {
+ 	background-color: skyblue;
+ 	width: 500px;
+ 	padding: 20px;
+ 	border-radius: 2px;
+ 	box-shadow: 3px 3px 3px black;
+ }
+ /* Items */
+ .items {
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style-type:none; 
+ 	color: black;
+ }
+
+
+.items .item.done {
+	text-decoration: line-through;
+	color:red;
+}
+
+ .items li,
+ .item-add .input {
+ 	border:0;
+ 	border-bottom: 1px solid white;
+ 	padding: 15px 0;
+ }
+  
+.input {
+	width:100%;
+	background-color: skyblue;
+}
+ .done-button {
+
+ 	font-style: 10px;
+ 	background-color: skyblue;
+ 	color: black;
+ 	padding: 3px 6px;
+ 	border:0;
+ 	box-shadow: 3px 3px 3px black;
+
+
+ }
+ /* Submit button */
+ .submit {
+ 	background-color: skyblue;
+ 	padding: 5px 10px;
+ 	width:100%;
+ 	margin-top: 10px;
+ 	box-shadow: 3px 3px 3px black;
+ 	border:none;
+
+ }
+ .color{
+ 	color:green;
+ }
